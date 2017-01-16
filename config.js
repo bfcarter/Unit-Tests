@@ -4,7 +4,7 @@ module.exports = {
     login: "m1311_shortener",
     password: "ShortPass1",
     database: "m1311_shortenerdb",
-    port: 3306,
+    port: 3306, //changed as directed
     logFilePath: "./logs/logs.txt",
     testRoutes: ["/api/v1/urls/"]
 };
