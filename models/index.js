@@ -1,3 +1,5 @@
+//sequelize
+
 const fs = require('fs');
 const path = require('path');
 const Sequelize = require('sequelize');
@@ -9,8 +11,8 @@ const sequelize = new Sequelize(config.database, config.login, config.password, 
   port: config.port,
   dialect: config.type,
   pool: {
-    max: 5,
-    min: 0,
+    max: 5, //max 5
+    min: 0, //min 0
     idle: 10000,
   },
 });
